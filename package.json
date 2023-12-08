@@ -6,7 +6,6 @@
     "build": "esbuild src/index.ts --bundle --platform=node --outfile=dist/index.js && cp -r src/inputs/ dist",
     "commit": "./scripts/commit_day.sh",
     "dev": "tsx src/index.ts",
-    "new": "./scripts/new_day.sh",
     "postinstall": "husky install",
     "start": "yarn run dev"
   },
@@ -24,7 +23,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^15.1.0",
     "prettier": "^3.1.0",
-    "tsx": "^10.9.1",
+    "tsx": "^4.6.2",
     "typescript": "^5.3.2",
     "yargs": "^17.7.2"
   },

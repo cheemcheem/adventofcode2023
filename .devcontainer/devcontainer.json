@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/typescript-node
 {
-  "name": "adventofcode",
+  "name": "adventofcode2023",
   "build": {
     "dockerfile": "Dockerfile",
     "args": {
@@ -16,7 +16,7 @@
   },
 
   "mounts": [
-    "source=adventofcode-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
+    "source=adventofcode2023-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
   ],
 
   // Use 'postCreateCommand' to run commands after the container is created.
